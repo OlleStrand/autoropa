@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactApp", "ReactApp\ReactApp.csproj", "{2313C5DF-80E0-4EBE-903E-6C0A57B3BEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autoropa", "Autoropa\Autoropa.csproj", "{0DC0D531-CA92-4B4D-A8DF-338CC210963C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoropaDataAccess", "AutoropaDataAcccess\AutoropaDataAccess.csproj", "{069769BB-D48A-4E82-9A42-F6948015639C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2313C5DF-80E0-4EBE-903E-6C0A57B3BEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2313C5DF-80E0-4EBE-903E-6C0A57B3BEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2313C5DF-80E0-4EBE-903E-6C0A57B3BEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2313C5DF-80E0-4EBE-903E-6C0A57B3BEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC0D531-CA92-4B4D-A8DF-338CC210963C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC0D531-CA92-4B4D-A8DF-338CC210963C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC0D531-CA92-4B4D-A8DF-338CC210963C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC0D531-CA92-4B4D-A8DF-338CC210963C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069769BB-D48A-4E82-9A42-F6948015639C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069769BB-D48A-4E82-9A42-F6948015639C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069769BB-D48A-4E82-9A42-F6948015639C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069769BB-D48A-4E82-9A42-F6948015639C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {502295FD-AD13-4A6C-BBBA-9728F8FD89AB}
+		SolutionGuid = {88F73CAB-0EF4-4574-B60A-749AA4D2D1A5}
 	EndGlobalSection
 EndGlobal
