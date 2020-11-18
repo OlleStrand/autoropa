@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using AutoropaDataAccess.Models;
 using Autoropa.Models;
 using Autoropa.Helpers;
+using AutoropaDataAccess.DataAccess;
 
 namespace Autoropa.Services
 {
@@ -22,10 +23,12 @@ namespace Autoropa.Services
         };
 
         private readonly AppSettings _appSettings;
+        private readonly UserContext _db;
 
-        public UserService(IOptions<AppSettings> appSettings)
+        public UserService(IOptions<AppSettings> appSettings, UserContext db)
         {
             _appSettings = appSettings.Value;
+            _db = db;
         }
 
         public User Authenticate(string username, string password)

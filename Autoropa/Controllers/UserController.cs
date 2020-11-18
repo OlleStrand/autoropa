@@ -46,5 +46,14 @@ namespace Autoropa.Controllers
 
             return Ok(user);
         }
+
+        [HttpPost]
+        public IActionResult Create([FromBody] User user)
+        {
+            if (user == null)
+                return BadRequest(new { message = "Not enought data provided" });
+
+            return Ok();
+        }
     }
 }

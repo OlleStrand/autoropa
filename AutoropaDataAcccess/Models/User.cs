@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace AutoropaDataAccess.Models
@@ -15,6 +16,7 @@ namespace AutoropaDataAccess.Models
         [MaxLength(60)]
         public string LastName { get; set; }
 
+        [MaxLength(50)]
         public string Username { get; set; }
         [Required]
         [MaxLength(200)]
@@ -26,6 +28,7 @@ namespace AutoropaDataAccess.Models
         [Required]
         [MaxLength(40)]
         public string Role { get; set; }
+        [NotMapped]
         public string Token { get; set; }
     }
 }
